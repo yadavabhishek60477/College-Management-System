@@ -11,8 +11,8 @@ const seedData = async () => {
         await adminDetails.deleteMany({})
 
         await adminCredential.create({
-            loginid: 123456,
-            password: "admin123"
+            loginid: 123123,
+            password: "admin1230"
         });
 
         const adminDetail = {
